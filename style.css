@@ -1,29 +1,9 @@
-/*.header {
-    list-style-type: none;
-    overflow: hidden;
-    float: right;
-    font-family: arial,sans-serif;
-    font-size: 13px;
-   }*/
+ul { list-style-type:none; }
 
-  
-   /*.headerli a {
-    display: block;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    float: right;
-    padding-top: 0px;
-    
-  }
-  
-  .headerli a:hover {
-    text-decoration: underline;
-  } */
-  
 .container {
     text-align: center;
     height: 92px;
+
 }
 
 .panel {
@@ -34,7 +14,40 @@
 .panel li {
   display: inline;
   font-size: 15px;
+
 }
+
+.panel ul {
+  margin-top: 4px;
+  padding: 5px;
+
+}
+
+.panel a {
+  color: rgba(0,0,0,.87);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13.5px;
+}
+
+.panel a:hover {
+  text-decoration: underline;
+}
+
+.panelli {
+  border-radius: 30px;
+  margin-bottom: -9px;
+}
+
+.panelli:hover {
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+
+.panelli2:hover {
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
 
 .imglogo {
     margin-top: 200px;
@@ -120,14 +133,15 @@
     -webkit-tap-highlight-color: transparent;
     margin-top: -58px;
 }
-  
- /* .googlesearch {
-    margin-left: ;
-  }
-  
-  .feelinglucky {
-    text-align: center;
-  }*/
+
+.goxjub {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+  margin-left: 530px;
+  margin-top: -60px;
+}
+
 
 #search {
     background-color: #f8f9fa;
@@ -144,11 +158,38 @@
     text-align: center;
     cursor: pointer;
     user-select: none;
+    margin-top: 30px;
 }
 
 #search:hover {
-    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.24), 0 1px 1px 0 rgba(0,0,0,0.19);
 }
+
+.buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.line {
+
+  display: inline;
+  margin-left: 650px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,.87);
+
+}
+
+.line2 {
+  text-decoration: none;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.line2:hover {
+  text-decoration: underline;
+}
+
   
 .footer {
     margin: 0;
@@ -162,7 +203,7 @@
     margin-left: -8px;
     line-height: 10px;
 }
-  
+
 .footerli {
     float: left;
 }
